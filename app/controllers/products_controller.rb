@@ -1,15 +1,10 @@
 class ProductsController < ApplicationController
   helper_method :sort_column, :sort_direction
   before_action :set_product, only: %i[ show edit update destroy ]
-
-
+  
   # GET /products or /products.json
   def index
-    uri =
     @products = Product.order(sort_column + " " + sort_direction).page params[:page]
-    @count = @products.count
-    p 'there'
-    p @count
   end
 
   # GET /products/1 or /products/1.json
