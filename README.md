@@ -1,7 +1,6 @@
 # CloverDynamycs
 The setups steps expect following tools installed on the system.
 
-- Github
 - MySQL
 - Ruby [2.6.6](https://www.ruby-lang.org/en/news/2020/03/31/ruby-2-6-6-released/)
 - Rails [6.1.4](https://github.com/rails/rails)
@@ -57,5 +56,7 @@ will appear between New product and Destroy all for easy navigation through the 
 URL address) => ?page={id}
 <br>3) If you want to sort the products by name or price, then just click on the name or price field above 
 the table(one click = asc, two clicks = desc). You can also see current sorting in URL address => ?direction=desc&sort=Price
-<br>## There is deployment on HEROKU 
+<br>
+<br>
+ There is deployment on HEROKU 
 <br>https://rest-on-rails.herokuapp.com/products
