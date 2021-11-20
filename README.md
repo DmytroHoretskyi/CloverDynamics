@@ -34,7 +34,7 @@ http://localhost:3000/
 
 
 
-#About site
+# About site
 You can try all the methods directly on the main page.
 There is buttons like:
 - New product => redirect to POST /products/new
@@ -51,11 +51,11 @@ If we have an odd number of products, it returns the product in the middle of th
 - Destroy => DELETE /products/{id}
 <br>
 <br>There also is pagination:
-1) Up to 10 products can be displayed on a page at a time
-2) If there are more than 10 products in the database, a second product page will be created, and navigation buttons 
+<br>1) Up to 10 products can be displayed on a page at a time
+<br>2) If there are more than 10 products in the database, a second product page will be created, and navigation buttons 
 will appear between New product and Destroy all for easy navigation through the pages(You can see current page in 
 URL address) => ?page={id}
-3) If you want to sort the products by name or price, then just click on the name or price field above 
+<br>3) If you want to sort the products by name or price, then just click on the name or price field above 
 the table(one click = asc, two clicks = desc). You can also see current sorting in URL address => ?direction=desc&sort=Price
-## There is deployment on HEROKU 
-https://rest-on-rails.herokuapp.com/products
+<br>## There is deployment on HEROKU 
+<br>https://rest-on-rails.herokuapp.com/products
